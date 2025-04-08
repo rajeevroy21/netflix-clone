@@ -29,6 +29,12 @@ export const trailerMovieState = atom({
   default: null,
 });
 
+// Stores the search results for movies
+export const searchedMovieState = atom({
+  key: "searchedMovieState",
+  default: [],
+});
+
 // Controls whether a UI element (like a modal) is open
 export const openState = atom({
   key: "openState",

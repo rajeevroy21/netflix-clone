@@ -14,7 +14,7 @@ const useMovieById = async(movieId) => {
 
         console.log("my name is ",res.data.results);
         const trailer = res?.data?.results?.find((item) => item.type === "Teaser");
-        setTrailermovie(trailer.length>0?trailer[1]:res.data.results[1]);
+        setTrailermovie(trailer.length>0?trailer[0]:res.data.results[1]);
       //  console.log("my name is ",trailer[0]);
       } catch (error) {
         console.error("Error fetching movie trailer:", error);
