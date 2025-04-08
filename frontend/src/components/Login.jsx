@@ -5,7 +5,7 @@ import axios from "axios";
 import { API_END_POINT } from "../../utils/constant";
 import { useNavigate } from "react-router-dom";
 import { useRecoilState, useSetRecoilState } from "recoil";
-import { loadingState, userState } from "../recoil/UserState";
+import { loadingState, userState } from "../recoil/userState";
 
 const Login = () => {
   const [isLogin, setIsLogin] = useState(false);

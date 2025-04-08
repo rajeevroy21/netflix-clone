@@ -10,7 +10,7 @@ import useTopRatedMovies from '../hooks/useTopRatedMovies';
 import useUpcomingMovies from '../hooks/useUpcomingMovies';
 import { toggleState } from '../recoil/movieState';
 import SearchMovie from './SearchMovie ';
-import { userState } from '../recoil/UserState';
+import { userState } from '../recoil/userState';
 
 const Browse = () => {
     const user =useRecoilValue(userState);
