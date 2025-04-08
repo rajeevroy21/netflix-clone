@@ -44,5 +44,5 @@ export const openState = atom({
 // Stores the selected movie ID
 export const idState = atom({
   key: "idState",
-  default: "",
+  default:null,
 });

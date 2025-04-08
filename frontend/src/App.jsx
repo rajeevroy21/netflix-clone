@@ -2,6 +2,7 @@ import { BrowserRouter, Routes, Route } from "react-router-dom";
 import { Toaster } from "react-hot-toast";
 import Login from "./components/Login";
 import Browse from "./components/Browse";
+import MovieDialog from "./components/MovieDialog";
 
 const App = () => (
   <BrowserRouter>  
@@ -10,6 +11,7 @@ const App = () => (
       <Route path="/browse" element={<Browse />} />
     </Routes>
     <Toaster />
+    <MovieDialog/>
   </BrowserRouter>
 );
 
