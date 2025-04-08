@@ -6,7 +6,7 @@ import DialogContent from '@mui/material/DialogContent';
 import DialogContentText from '@mui/material/DialogContentText';
 import { useRecoilState, useRecoilValue } from 'recoil';
 import VideoBackground from './VideoBackground';
-import { idState, openState } from '../../recoil/movieState';
+import { idState, openState } from '../recoil/movieState';
 
 export default function MovieDialog() {
   const [open, setOpen] = useRecoilState(openState);

@@ -1,7 +1,7 @@
 import React from 'react'
 import useMovieById from '../hooks/useMovieById'
 import { useRecoilValue } from 'recoil';
-import { trailerMovieState } from '../../recoil/movieState';
+import { trailerMovieState } from '../recoil/movieState';
 
 const VideoBackground = ({movieId}) => {
   const trailerMovie=useRecoilValue(trailerMovieState);

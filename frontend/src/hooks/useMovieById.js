@@ -2,7 +2,7 @@
 import { useEffect } from "react";
 import { useSetRecoilState } from "recoil";
 import axios from "axios";
-import { trailerMovieState } from "../../recoil/movieState";
+import { trailerMovieState } from "../recoil/movieState";
 import { options } from "../../utils/constant";
 
 const useMovieById = async(movieId) => {

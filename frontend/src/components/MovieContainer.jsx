@@ -1,7 +1,7 @@
 import React from 'react'
 import MovieList from './MovieList'
 import { useRecoilValue } from 'recoil'
-import { nowPlayingMoviesState, popularMovieState, topRatedMoviesState, upcomingMoviesState } from '../../recoil/movieState';
+import { nowPlayingMoviesState, popularMovieState, topRatedMoviesState, upcomingMoviesState } from '../recoil/movieState';
 const MovieContainer = () => {
     const pmovie=useRecoilValue(popularMovieState);
     console.log("pmovees list",pmovie);

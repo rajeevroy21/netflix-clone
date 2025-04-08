@@ -2,8 +2,8 @@ import axios from 'axios';
 import React, { useState } from 'react';
 import { options, SEARCH_MOVIE_URL } from '../../utils/constant';
 import { useRecoilState, useRecoilValue, useSetRecoilState } from 'recoil';
-import { searchedMovieState } from '../../recoil/movieState';
-import { loadingState } from '../../recoil/UserState';
+import { searchedMovieState } from '../recoil/movieState';
+import { loadingState } from '../recoil/UserState';
 import MovieList from './MovieList';
 
 const SearchMovie = () => {

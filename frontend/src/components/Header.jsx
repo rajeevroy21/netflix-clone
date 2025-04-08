@@ -1,12 +1,12 @@
 import React from "react";
 import { IoIosArrowDropdown } from "react-icons/io";
 import { useRecoilState } from "recoil";
-import { userState } from "../../recoil/UserState";
+import { userState } from "../recoil/UserState";
 import { useNavigate } from "react-router-dom";
 import axios from "axios";
 import { API_END_POINT } from "../../utils/constant";
 import toast from "react-hot-toast";
-import { toggleState } from "../../recoil/movieState";
+import { toggleState } from "../recoil/movieState";
 
 const Header = () => {
     const [user, setUser] = useRecoilState(userState);

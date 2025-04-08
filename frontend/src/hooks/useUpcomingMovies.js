@@ -1,5 +1,5 @@
 import { useSetRecoilState } from "recoil";
-import { upcomingMoviesState } from "../../recoil/movieState";
+import { upcomingMoviesState } from "../recoil/movieState";
 import axios from "axios";
 import { options, Upcoming_Movie } from "../../utils/constant";
 import { useEffect } from "react";

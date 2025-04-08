@@ -2,7 +2,7 @@ import React from 'react'
 import VideoTitle from './VideoTitle'
 import VideoBackground from './VideoBackground'
 import { useRecoilValue } from 'recoil';
-import { nowPlayingMoviesState } from '../../recoil/movieState';
+import { nowPlayingMoviesState } from '../recoil/movieState';
 
 const MainContainer = () => {
   const nmovie= useRecoilValue(nowPlayingMoviesState);

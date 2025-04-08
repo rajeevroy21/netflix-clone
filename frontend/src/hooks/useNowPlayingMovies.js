@@ -1,6 +1,6 @@
 import React, { useEffect } from 'react'
 import { useSetRecoilState } from 'recoil'
-import { nowPlayingMoviesState } from '../../recoil/movieState'
+import { nowPlayingMoviesState } from '../recoil/movieState'
 import axios from 'axios';
 import { Now_Playing_Movie, options } from '../../utils/constant';
 

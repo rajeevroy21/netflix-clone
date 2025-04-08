@@ -1,6 +1,6 @@
 import React from 'react'
 import { TMDB_IMG_URL } from '../../utils/constant'
-import { idState, openState } from '../../recoil/movieState';
+import { idState, openState } from '../recoil/movieState';
 import { useSetRecoilState } from 'recoil';
 
 const MovieCard = ({posterPath,movieId}) => {
