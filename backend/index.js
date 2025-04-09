@@ -19,7 +19,7 @@ app.use(express.urlencoded({extended:true}));
 app.use(express.json());
 app.use(cookieParser());
 const corsOptions = {
-    origin:'https://netflix-clone-wffc.onrender.com',
+    origin:'https://netflix-clone-git-main-rajeevroy21s-projects.vercel.app',
     credentials:true
 }
 app.use(cors(corsOptions));
