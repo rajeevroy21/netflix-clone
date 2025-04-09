@@ -8,7 +8,7 @@ import userRoute from "./routes/userRoute.js";
 import cors from "cors";
 
 databaseConnection();
-
+dotenv.config();
 dotenv.config({
     path:".env"
 })
